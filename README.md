@@ -30,3 +30,9 @@ print ip, ipinfo['city'], ipinfo['city_cn'], ipinfo['province'], ipinfo['provinc
 
 * python 安装 geoip2.database 库
 * 缺省情况下，GeoLite2-City.mmdb 文件应该在执行目录
+
+相关URL：
+
+* pypi https://pypi.python.org/pypi/geoip2
+* geoip2 http://dev.maxmind.com/geoip/
+* GeoLite2-City.mmdb下载 http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.mmdb.gz
