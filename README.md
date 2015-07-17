@@ -17,11 +17,11 @@
 返回信息只包括该ip对应的城市，省份，国家的中文/英文名。
 
 使用说明：
-'''
+```
 from geoip2pack import GeoIP2Reader
 
 reader = GeoIP2Reader()
 ip = '8.8.8.8'
 ipinfo = reader.ip2city(ip)
 print ip, ipinfo['city'], ipinfo['city_cn'], ipinfo['province'], ipinfo['province_cn'], ipinfo['country'], ipinfo['country_cn'], ipinfo['error']
-'''
+```
