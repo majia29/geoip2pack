@@ -25,3 +25,8 @@ ip = '8.8.8.8'
 ipinfo = reader.ip2city(ip)
 print ip, ipinfo['city'], ipinfo['city_cn'], ipinfo['province'], ipinfo['province_cn'], ipinfo['country'], ipinfo['country_cn'], ipinfo['error']
 ```
+
+文件依赖：
+
+* python 安装 geoip2.database 库
+* 缺省情况下，GeoLite2-City.mmdb 文件应该在执行目录
